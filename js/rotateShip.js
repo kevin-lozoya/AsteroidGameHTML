@@ -224,6 +224,9 @@ var rotateShip = function (elem) {
 
     lastFullRad = output.fullRad;
 
+    // Put the rotation in radians for the instance "ship"
+    ship.direction = rotationRad
+
     output.onchange();
 
   }
